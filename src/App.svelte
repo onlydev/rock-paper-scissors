@@ -1,7 +1,10 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+  import TailwindCss from "./TailwindCSS.svelte";
+  import logo from "./assets/svelte.png";
+  import Counter from "./lib/Counter.svelte";
 </script>
+
+<TailwindCss />
 
 <main>
   <img src={logo} alt="Svelte Logo" />
@@ -22,8 +25,8 @@
 
 <style>
   :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   main {
